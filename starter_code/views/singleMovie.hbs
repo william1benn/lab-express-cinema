@@ -1,0 +1,12 @@
+
+<h1>Movie Title</h1>
+
+<h2>{{AsingleMovie.title}}</h2>
+<img src={{AsingleMovie.image}} alt="">
+
+<ul>
+        {{#each AsingleMovie.stars }}
+        <li class = "stars-list">{{this}}</li>
+        <br>
+        {{/each}}
+    </ul>
